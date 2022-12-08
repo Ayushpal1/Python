@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c83ac2cf05d74e139c81db8e44996bc2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c83ac2cf05d74e139c81db8e44996bc2" ></div>
+        
+</body>
+<script>    
+    
+            var map_c83ac2cf05d74e139c81db8e44996bc2 = L.map(
+                "map_c83ac2cf05d74e139c81db8e44996bc2",
+                {
+                    center: [18.5204, 73.8567],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a7d294931c0546b19026d6d5a222553b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c83ac2cf05d74e139c81db8e44996bc2);
+        
+    
+            var feature_group_d758b3c272e7431fb9262f46d23b583f = L.featureGroup(
+                {}
+            ).addTo(map_c83ac2cf05d74e139c81db8e44996bc2);
+        
+    
+            var marker_71afbd0dea794787b4a46b127d916ca0 = L.marker(
+                [18.528190000000052, 73.93264000000005],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_2e80c6779ebb44b7886bca60ecfc53ee = L.marker(
+                [18.671380000000056, 73.79537000000005],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_d3decf5a49cf46728a349a56a8afb24d = L.marker(
+                [18.620540000000062, 73.91758000000004],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_b78e2bb977294253aaefba4e54d96e70 = L.marker(
+                [18.60373000000004, 73.71912000000003],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_fb64a3e69a1444aeaee096fffbc362d1 = L.marker(
+                [18.58263000000005, 73.78551000000004],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_7814f6fa3f6547639d4d6e1f0b0bc40b = L.marker(
+                [18.67073000000005, 73.72617000000008],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_2825741cfe5f4b3da7545d21a0b1c794 = L.marker(
+                [18.580260000000067, 73.88946000000004],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_d5abc0b652234917a28a1afc0ba09380 = L.marker(
+                [18.455580000000054, 74.06991000000005],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_ed8b7d0599bb48428e8d176bfc27eed3 = L.marker(
+                [18.630900000000054, 73.73780000000005],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_f8bf1dc11950439c9eb81a109b6a05c3 = L.marker(
+                [18.51123000000007, 73.68317000000008],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_8c7ecaeef3dd409fb18814b260579de9 = L.marker(
+                [18.551810000000046, 73.77116000000007],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_b063fc5d46a240a99db1b69c1ef0c8af = L.marker(
+                [18.347620000000063, 73.60249000000005],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_b1eff599008646f59c38da7b8cd88457 = L.marker(
+                [18.61668000000003, 73.80274000000003],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_e13054048d724b46a242c9139e8fb801 = L.marker(
+                [18.50744000000003, 73.78234000000003],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_01cdb42b32e5467ca3d1e53322d772fa = L.marker(
+                [18.518910000000062, 73.93999000000008],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_d0d4884f4c0f49e89cfea281928fdd8c = L.marker(
+                [18.504320000000064, 73.85501000000005],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_35def486fee14c4f92e5b1a51d46b5af = L.marker(
+                [18.58815000000004, 74.01281000000006],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_0856d897712f4c9eb4d6d9f94b8cd128 = L.marker(
+                [18.50744000000003, 73.78234000000003],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_d34d58220f2f4612971e96a78eba2a5f = L.marker(
+                [18.60083000000003, 73.92900000000003],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_a8fd8058776346b895375f0b0ed53e44 = L.marker(
+                [18.544620000000066, 73.93922000000003],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_4921772d324d4beb987f9db31eaf22b1 = L.marker(
+                [18.549190000000067, 73.91732000000007],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_e63f2770f16940829e288b2c406dd441 = L.marker(
+                [18.470420000000047, 73.86650000000003],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_5ce5db2e37264997a44d08fe745f7533 = L.marker(
+                [18.653650000000027, 73.74473000000006],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_f7f4fec7792947f3af5284a5be72f9d6 = L.marker(
+                [18.570050000000037, 73.92199000000005],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_5060fae5bff94c2d8dcf3b9273005999 = L.marker(
+                [18.470800000000054, 73.89368000000007],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_1051d9e614ad433fa87b2c9d7accf202 = L.marker(
+                [18.542080000000055, 73.93944000000005],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_4a572844cc1842a1976bd3a48ace6c90 = L.marker(
+                [18.509650000000022, 73.83124000000004],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_28ea466dd8874c159c1740f4c97650fd = L.marker(
+                [18.67073000000005, 73.72617000000008],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_f61086e5008b4be280c25195db13bc29 = L.marker(
+                [18.630900000000054, 73.73780000000005],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+    
+            var marker_d55716f858db4b90a258b8e00059544f = L.marker(
+                [18.60373000000004, 73.71912000000003],
+                {}
+            ).addTo(feature_group_d758b3c272e7431fb9262f46d23b583f);
+        
+</script>
